@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .nav {
+    @apply relative text-white font-mono font-bold tracking-[1px] hover:text-white cursor-pointer;
+  }
+
+  .nav::after {
+    @apply content-[''] absolute bg-pink-500 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl duration-300;
+  }
+
+  .nav:hover::after {
+    @apply w-full;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
