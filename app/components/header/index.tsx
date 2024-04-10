@@ -1,21 +1,25 @@
 import axios from "axios";
 import React from "react";
 
-const fetchHeader = async () => {
-  try {
-    const response = await axios.get(
-      `${process.env.STRAPI_BASE_URL}/api/header`
-    );
+// const fetchHeader = async () => {
+//   try {
+//     const response = await axios.get(
+//       `${process.env.STRAPI_BASE_URL}/api/header`
+//     );
 
-    return response.data.data;
-  } catch (error) {
-    console.error(error);
-    return [];
-  }
+//     return response.data.data;
+//   } catch (error) {
+//     console.error(error);
+//     return [];
+//   }
+// };
+
+type Props = {
+  // onToggleSidebar: () => void;
 };
 
-const Header = async () => {
-  const header = await fetchHeader();
+const Header = async ({}: Props) => {
+  // const header = await fetchHeader();
 
   const paths = [
     {
@@ -51,6 +55,8 @@ const Header = async () => {
           </a>
         ))}
       </div>
+
+      <button className="sm:hidden">Open</button>
     </header>
   );
 };

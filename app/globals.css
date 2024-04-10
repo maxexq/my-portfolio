@@ -8,7 +8,7 @@
   }
 
   .nav::after {
-    @apply content-[''] absolute bg-pink-500 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl duration-300;
+    @apply content-[''] absolute bg-[#d60511] h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl duration-300;
   }
 
   .nav:hover::after {
