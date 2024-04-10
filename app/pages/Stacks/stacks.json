@@ -1,0 +1,449 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "createdAt": "2024-04-10T13:06:07.311Z",
+        "updatedAt": "2024-04-10T15:13:30.884Z",
+        "publishedAt": "2024-04-10T13:06:18.110Z",
+        "title": "React",
+        "description": "Reactjs framework",
+        "detail": null,
+        "url": "https://react.dev/",
+        "thumbnail": {
+          "data": [
+            {
+              "id": 3,
+              "attributes": {
+                "name": "React logo.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 2300,
+                "height": 2000,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_React logo.png",
+                    "hash": "thumbnail_React_logo_591e7c4bd9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 179,
+                    "height": 156,
+                    "size": 17.43,
+                    "url": "/uploads/thumbnail_React_logo_591e7c4bd9.png"
+                  },
+                  "small": {
+                    "name": "small_React logo.png",
+                    "hash": "small_React_logo_591e7c4bd9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 435,
+                    "size": 53.57,
+                    "url": "/uploads/small_React_logo_591e7c4bd9.png"
+                  },
+                  "large": {
+                    "name": "large_React logo.png",
+                    "hash": "large_React_logo_591e7c4bd9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 870,
+                    "size": 118.32,
+                    "url": "/uploads/large_React_logo_591e7c4bd9.png"
+                  },
+                  "medium": {
+                    "name": "medium_React logo.png",
+                    "hash": "medium_React_logo_591e7c4bd9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 652,
+                    "size": 83.37,
+                    "url": "/uploads/medium_React_logo_591e7c4bd9.png"
+                  }
+                },
+                "hash": "React_logo_591e7c4bd9",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 42.93,
+                "url": "/uploads/React_logo_591e7c4bd9.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-04-10T13:05:59.341Z",
+                "updatedAt": "2024-04-10T13:05:59.341Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "createdAt": "2024-04-10T13:31:49.192Z",
+        "updatedAt": "2024-04-10T15:25:37.576Z",
+        "publishedAt": "2024-04-10T13:31:49.910Z",
+        "title": "Nextjs",
+        "description": "Nextjs framework",
+        "detail": null,
+        "url": "https://nextjs.org/",
+        "thumbnail": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "NextJS logo (1).png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 613,
+                "height": 613,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_NextJS logo (1).png",
+                    "hash": "thumbnail_Next_JS_logo_1_1921baef0f",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 3.17,
+                    "url": "/uploads/thumbnail_Next_JS_logo_1_1921baef0f.png"
+                  },
+                  "small": {
+                    "name": "small_NextJS logo (1).png",
+                    "hash": "small_Next_JS_logo_1_1921baef0f",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 500,
+                    "size": 18.79,
+                    "url": "/uploads/small_Next_JS_logo_1_1921baef0f.png"
+                  }
+                },
+                "hash": "Next_JS_logo_1_1921baef0f",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 5.55,
+                "url": "/uploads/Next_JS_logo_1_1921baef0f.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-04-10T15:25:35.485Z",
+                "updatedAt": "2024-04-10T16:50:33.964Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "createdAt": "2024-04-10T15:17:13.467Z",
+        "updatedAt": "2024-04-10T15:17:14.886Z",
+        "publishedAt": "2024-04-10T15:17:14.885Z",
+        "title": "Typescript",
+        "description": "Typescript language",
+        "detail": null,
+        "url": "https://www.typescriptlang.org/",
+        "thumbnail": {
+          "data": [
+            {
+              "id": 5,
+              "attributes": {
+                "name": "Typescript logo 2020.svg.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 2048,
+                "height": 2048,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Typescript logo 2020.svg.webp",
+                    "hash": "thumbnail_Typescript_logo_2020_svg_af20aa6c05",
+                    "ext": ".webp",
+                    "mime": "image/webp",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 1.42,
+                    "url": "/uploads/thumbnail_Typescript_logo_2020_svg_af20aa6c05.webp"
+                  },
+                  "large": {
+                    "name": "large_Typescript logo 2020.svg.webp",
+                    "hash": "large_Typescript_logo_2020_svg_af20aa6c05",
+                    "ext": ".webp",
+                    "mime": "image/webp",
+                    "path": null,
+                    "width": 1000,
+                    "height": 1000,
+                    "size": 9.54,
+                    "url": "/uploads/large_Typescript_logo_2020_svg_af20aa6c05.webp"
+                  },
+                  "small": {
+                    "name": "small_Typescript logo 2020.svg.webp",
+                    "hash": "small_Typescript_logo_2020_svg_af20aa6c05",
+                    "ext": ".webp",
+                    "mime": "image/webp",
+                    "path": null,
+                    "width": 500,
+                    "height": 500,
+                    "size": 4.46,
+                    "url": "/uploads/small_Typescript_logo_2020_svg_af20aa6c05.webp"
+                  },
+                  "medium": {
+                    "name": "medium_Typescript logo 2020.svg.webp",
+                    "hash": "medium_Typescript_logo_2020_svg_af20aa6c05",
+                    "ext": ".webp",
+                    "mime": "image/webp",
+                    "path": null,
+                    "width": 750,
+                    "height": 750,
+                    "size": 6.73,
+                    "url": "/uploads/medium_Typescript_logo_2020_svg_af20aa6c05.webp"
+                  }
+                },
+                "hash": "Typescript_logo_2020_svg_af20aa6c05",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 14.01,
+                "url": "/uploads/Typescript_logo_2020_svg_af20aa6c05.webp",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-04-10T15:16:38.551Z",
+                "updatedAt": "2024-04-10T15:16:38.551Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "createdAt": "2024-04-10T15:18:42.042Z",
+        "updatedAt": "2024-04-10T15:18:42.843Z",
+        "publishedAt": "2024-04-10T15:18:42.841Z",
+        "title": "Tailwind",
+        "description": "Tailwind css framework",
+        "detail": null,
+        "url": "https://tailwindcss.com/",
+        "thumbnail": {
+          "data": [
+            {
+              "id": 6,
+              "attributes": {
+                "name": "Tailwind CSS.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 300,
+                "height": 180,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Tailwind CSS.png",
+                    "hash": "thumbnail_Tailwind_CSS_a7d4d36096",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 147,
+                    "size": 16.16,
+                    "url": "/uploads/thumbnail_Tailwind_CSS_a7d4d36096.png"
+                  }
+                },
+                "hash": "Tailwind_CSS_a7d4d36096",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 3.87,
+                "url": "/uploads/Tailwind_CSS_a7d4d36096.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-04-10T15:18:21.232Z",
+                "updatedAt": "2024-04-10T15:18:21.232Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "createdAt": "2024-04-10T15:20:45.303Z",
+        "updatedAt": "2024-04-10T15:20:45.872Z",
+        "publishedAt": "2024-04-10T15:20:45.870Z",
+        "title": "Go",
+        "description": "Go language",
+        "detail": null,
+        "url": "https://go.dev/",
+        "thumbnail": {
+          "data": [
+            {
+              "id": 7,
+              "attributes": {
+                "name": "Go Logo Blue.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1200,
+                "height": 451,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Go Logo Blue.png",
+                    "hash": "thumbnail_Go_Logo_Blue_7a19d4ca86",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 92,
+                    "size": 8.43,
+                    "url": "/uploads/thumbnail_Go_Logo_Blue_7a19d4ca86.png"
+                  },
+                  "medium": {
+                    "name": "medium_Go Logo Blue.png",
+                    "hash": "medium_Go_Logo_Blue_7a19d4ca86",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 282,
+                    "size": 29.91,
+                    "url": "/uploads/medium_Go_Logo_Blue_7a19d4ca86.png"
+                  },
+                  "large": {
+                    "name": "large_Go Logo Blue.png",
+                    "hash": "large_Go_Logo_Blue_7a19d4ca86",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 376,
+                    "size": 43.23,
+                    "url": "/uploads/large_Go_Logo_Blue_7a19d4ca86.png"
+                  },
+                  "small": {
+                    "name": "small_Go Logo Blue.png",
+                    "hash": "small_Go_Logo_Blue_7a19d4ca86",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 188,
+                    "size": 18.14,
+                    "url": "/uploads/small_Go_Logo_Blue_7a19d4ca86.png"
+                  }
+                },
+                "hash": "Go_Logo_Blue_7a19d4ca86",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 7.49,
+                "url": "/uploads/Go_Logo_Blue_7a19d4ca86.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-04-10T15:19:40.103Z",
+                "updatedAt": "2024-04-10T15:20:38.036Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "createdAt": "2024-04-10T15:23:06.352Z",
+        "updatedAt": "2024-04-10T15:23:06.932Z",
+        "publishedAt": "2024-04-10T15:23:06.930Z",
+        "title": "Nodejs",
+        "description": "Javascript runtime library",
+        "detail": null,
+        "url": "https://nodejs.org/en",
+        "thumbnail": {
+          "data": [
+            {
+              "id": 8,
+              "attributes": {
+                "name": "Node.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 2560,
+                "height": 1566,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Node.png",
+                    "hash": "thumbnail_Node_746474125c",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 150,
+                    "size": 13.92,
+                    "url": "/uploads/thumbnail_Node_746474125c.png"
+                  },
+                  "medium": {
+                    "name": "medium_Node.png",
+                    "hash": "medium_Node_746474125c",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 459,
+                    "size": 56.26,
+                    "url": "/uploads/medium_Node_746474125c.png"
+                  },
+                  "small": {
+                    "name": "small_Node.png",
+                    "hash": "small_Node_746474125c",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 306,
+                    "size": 33.07,
+                    "url": "/uploads/small_Node_746474125c.png"
+                  },
+                  "large": {
+                    "name": "large_Node.png",
+                    "hash": "large_Node_746474125c",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 612,
+                    "size": 87.07,
+                    "url": "/uploads/large_Node_746474125c.png"
+                  }
+                },
+                "hash": "Node_746474125c",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 62.82,
+                "url": "/uploads/Node_746474125c.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-04-10T15:22:26.550Z",
+                "updatedAt": "2024-04-10T15:22:26.550Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 6
+    }
+  }
+}

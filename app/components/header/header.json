@@ -1,0 +1,36 @@
+{
+  "data": {
+    "id": 1,
+    "attributes": {
+      "detail": {
+        "logo": "maxexq.dev",
+        "menus": [
+          {
+            "name": "Home",
+            "path": "#home"
+          },
+          {
+            "name": "Stacks",
+            "path": "#stacks"
+          },
+          {
+            "name": "Projects",
+            "path": "#projects"
+          },
+          {
+            "name": "About",
+            "path": "#about"
+          },
+          {
+            "name": "Contact",
+            "path": "#contact"
+          }
+        ]
+      },
+      "createdAt": "2023-12-18T14:47:32.755Z",
+      "updatedAt": "2024-04-10T12:40:42.294Z",
+      "publishedAt": "2023-12-18T14:47:56.865Z"
+    }
+  },
+  "meta": {}
+}

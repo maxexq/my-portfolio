@@ -1,0 +1,18 @@
+{
+  "data": {
+    "id": 1,
+    "attributes": {
+      "detail": {
+        "copyright": "© All rights are reserved 2023.",
+        "by": {
+          "name": "maxexq",
+          "url": "https://github.com/maxexq"
+        }
+      },
+      "createdAt": "2023-12-18T14:39:41.887Z",
+      "updatedAt": "2023-12-18T14:40:33.457Z",
+      "publishedAt": "2023-12-18T14:40:33.455Z"
+    }
+  },
+  "meta": {}
+}

@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
+// * Fonts
 import { Poppins } from "next/font/google";
+
+// * Styles
 import "./globals.css";
+
+// * Components
 import Header from "./components/header";
 import Sidebar from "./components/sidebar";
 import Footer from "./components/footer";

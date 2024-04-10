@@ -1,0 +1,421 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "title": "Link in Bio",
+        "description": "'link in bio' for social media platform create with html, css, and javascript",
+        "detail": {
+          "status": "Published",
+          "stacks": ["HTML", "CSS", "JavaScript"],
+          "repo": "https://github.com/maxexq/bio-link",
+          "demo": "https://links-maxexq.vercel.app/"
+        },
+        "createdAt": "2023-12-18T14:09:42.781Z",
+        "updatedAt": "2023-12-18T15:39:20.701Z",
+        "publishedAt": "2023-12-18T15:39:01.152Z",
+        "thumbnail": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "link-in-bio-screencapture",
+              "alternativeText": "link in bio",
+              "caption": null,
+              "width": 424,
+              "height": 844,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_Screenshot 2566-12-18 at 21.08.20.png",
+                  "hash": "thumbnail_Screenshot_2566_12_18_at_21_08_20_07aa3e87ec",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 78,
+                  "height": 156,
+                  "size": 18.88,
+                  "url": "/uploads/thumbnail_Screenshot_2566_12_18_at_21_08_20_07aa3e87ec.png"
+                },
+                "small": {
+                  "name": "small_Screenshot 2566-12-18 at 21.08.20.png",
+                  "hash": "small_Screenshot_2566_12_18_at_21_08_20_07aa3e87ec",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 251,
+                  "height": 500,
+                  "size": 96.68,
+                  "url": "/uploads/small_Screenshot_2566_12_18_at_21_08_20_07aa3e87ec.png"
+                },
+                "medium": {
+                  "name": "medium_Screenshot 2566-12-18 at 21.08.20.png",
+                  "hash": "medium_Screenshot_2566_12_18_at_21_08_20_07aa3e87ec",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 377,
+                  "height": 750,
+                  "size": 175.71,
+                  "url": "/uploads/medium_Screenshot_2566_12_18_at_21_08_20_07aa3e87ec.png"
+                }
+              },
+              "hash": "Screenshot_2566_12_18_at_21_08_20_07aa3e87ec",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 39.31,
+              "url": "/uploads/Screenshot_2566_12_18_at_21_08_20_07aa3e87ec.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-12-18T14:08:47.132Z",
+              "updatedAt": "2023-12-18T14:09:22.430Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "title": "My portfolio",
+        "description": "Portfolio web application implemented with passion, and Nextjs belong to powerful strapi cms.",
+        "detail": {
+          "status": "Developing",
+          "stacks": ["Nextjs", "Strapi", "Tailwind"],
+          "repo": "https://github.com/maxexq/my-portfolio",
+          "demo": ""
+        },
+        "createdAt": "2023-12-18T15:51:34.878Z",
+        "updatedAt": "2024-04-10T16:46:04.665Z",
+        "publishedAt": "2023-12-18T15:52:36.756Z",
+        "thumbnail": {
+          "data": {
+            "id": 13,
+            "attributes": {
+              "name": "Screenshot 2567-04-10 at 23.45.53.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1528,
+              "height": 1296,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_Screenshot 2567-04-10 at 23.45.53.png",
+                  "hash": "thumbnail_Screenshot_2567_04_10_at_23_45_53_358833543b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 184,
+                  "height": 156,
+                  "size": 26.53,
+                  "url": "/uploads/thumbnail_Screenshot_2567_04_10_at_23_45_53_358833543b.png"
+                },
+                "small": {
+                  "name": "small_Screenshot 2567-04-10 at 23.45.53.png",
+                  "hash": "small_Screenshot_2567_04_10_at_23_45_53_358833543b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 424,
+                  "size": 151.17,
+                  "url": "/uploads/small_Screenshot_2567_04_10_at_23_45_53_358833543b.png"
+                },
+                "medium": {
+                  "name": "medium_Screenshot 2567-04-10 at 23.45.53.png",
+                  "hash": "medium_Screenshot_2567_04_10_at_23_45_53_358833543b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 636,
+                  "size": 307.86,
+                  "url": "/uploads/medium_Screenshot_2567_04_10_at_23_45_53_358833543b.png"
+                },
+                "large": {
+                  "name": "large_Screenshot 2567-04-10 at 23.45.53.png",
+                  "hash": "large_Screenshot_2567_04_10_at_23_45_53_358833543b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 848,
+                  "size": 513.27,
+                  "url": "/uploads/large_Screenshot_2567_04_10_at_23_45_53_358833543b.png"
+                }
+              },
+              "hash": "Screenshot_2567_04_10_at_23_45_53_358833543b",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 244.15,
+              "url": "/uploads/Screenshot_2567_04_10_at_23_45_53_358833543b.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2024-04-10T16:46:02.847Z",
+              "updatedAt": "2024-04-10T16:46:02.847Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "title": "Hello world book",
+        "description": "\"HELLO WORLD BOOK\" simple book search web site implemented from vanilla js",
+        "detail": {
+          "status": "Published",
+          "stacks": ["HTML", "CSS", "JavaScript"],
+          "repo": "https://github.com/maxexq/hello-world-book",
+          "demo": "https://hello-world-books.netlify.app"
+        },
+        "createdAt": "2023-12-20T09:08:18.457Z",
+        "updatedAt": "2024-04-10T15:57:59.888Z",
+        "publishedAt": "2023-12-20T09:08:19.873Z",
+        "thumbnail": {
+          "data": {
+            "id": 10,
+            "attributes": {
+              "name": "Screenshot 2567-04-10 at 22.57.25.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 2812,
+              "height": 1530,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_Screenshot 2567-04-10 at 22.57.25.png",
+                  "hash": "thumbnail_Screenshot_2567_04_10_at_22_57_25_321bf94915",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 245,
+                  "height": 133,
+                  "size": 31.97,
+                  "url": "/uploads/thumbnail_Screenshot_2567_04_10_at_22_57_25_321bf94915.png"
+                },
+                "small": {
+                  "name": "small_Screenshot 2567-04-10 at 22.57.25.png",
+                  "hash": "small_Screenshot_2567_04_10_at_22_57_25_321bf94915",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 272,
+                  "size": 86.53,
+                  "url": "/uploads/small_Screenshot_2567_04_10_at_22_57_25_321bf94915.png"
+                },
+                "large": {
+                  "name": "large_Screenshot 2567-04-10 at 22.57.25.png",
+                  "hash": "large_Screenshot_2567_04_10_at_22_57_25_321bf94915",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 544,
+                  "size": 208.88,
+                  "url": "/uploads/large_Screenshot_2567_04_10_at_22_57_25_321bf94915.png"
+                },
+                "medium": {
+                  "name": "medium_Screenshot 2567-04-10 at 22.57.25.png",
+                  "hash": "medium_Screenshot_2567_04_10_at_22_57_25_321bf94915",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 408,
+                  "size": 140.07,
+                  "url": "/uploads/medium_Screenshot_2567_04_10_at_22_57_25_321bf94915.png"
+                }
+              },
+              "hash": "Screenshot_2567_04_10_at_22_57_25_321bf94915",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 127.73,
+              "url": "/uploads/Screenshot_2567_04_10_at_22_57_25_321bf94915.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2024-04-10T15:57:53.122Z",
+              "updatedAt": "2024-04-10T15:57:53.122Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "title": "Parksoi shop API",
+        "description": "Parksoi shop API is a simple API implemented by Go with fiber.",
+        "detail": {
+          "status": "Developing",
+          "stacks": ["Go", "Fiber"],
+          "repo": "https://github.com/maxexq/parksoi-shop",
+          "demo": ""
+        },
+        "createdAt": "2024-04-10T12:42:27.302Z",
+        "updatedAt": "2024-04-10T16:51:55.787Z",
+        "publishedAt": "2024-04-10T12:43:33.713Z",
+        "thumbnail": {
+          "data": {
+            "id": 15,
+            "attributes": {
+              "name": "Go Fiber Logo.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 640,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_Go Fiber Logo.png",
+                  "hash": "thumbnail_Go_Fiber_Logo_4ef17d4f24",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 245,
+                  "height": 123,
+                  "size": 9.76,
+                  "url": "/uploads/thumbnail_Go_Fiber_Logo_4ef17d4f24.png"
+                },
+                "large": {
+                  "name": "large_Go Fiber Logo.png",
+                  "hash": "large_Go_Fiber_Logo_4ef17d4f24",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 500,
+                  "size": 42.44,
+                  "url": "/uploads/large_Go_Fiber_Logo_4ef17d4f24.png"
+                },
+                "small": {
+                  "name": "small_Go Fiber Logo.png",
+                  "hash": "small_Go_Fiber_Logo_4ef17d4f24",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 250,
+                  "size": 19.73,
+                  "url": "/uploads/small_Go_Fiber_Logo_4ef17d4f24.png"
+                },
+                "medium": {
+                  "name": "medium_Go Fiber Logo.png",
+                  "hash": "medium_Go_Fiber_Logo_4ef17d4f24",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 375,
+                  "size": 30.42,
+                  "url": "/uploads/medium_Go_Fiber_Logo_4ef17d4f24.png"
+                }
+              },
+              "hash": "Go_Fiber_Logo_4ef17d4f24",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 9.62,
+              "url": "/uploads/Go_Fiber_Logo_4ef17d4f24.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2024-04-10T16:51:53.768Z",
+              "updatedAt": "2024-04-10T16:51:53.768Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "title": "Longdoo",
+        "description": "The simple movies web application powered by SvelteKit.",
+        "detail": {
+          "status": "Published",
+          "stacks": ["Svelte", "SvelteKit", "Tailwind"],
+          "repo": "https://github.com/maxexq/longdoo",
+          "demo": "https://longdoo.vercel.app/"
+        },
+        "createdAt": "2024-04-10T16:06:01.296Z",
+        "updatedAt": "2024-04-10T16:07:49.813Z",
+        "publishedAt": "2024-04-10T16:07:49.811Z",
+        "thumbnail": {
+          "data": {
+            "id": 11,
+            "attributes": {
+              "name": "Screenshot 2567-04-10 at 23.06.42.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 2812,
+              "height": 1556,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_Screenshot 2567-04-10 at 23.06.42.png",
+                  "hash": "thumbnail_Screenshot_2567_04_10_at_23_06_42_a24e916c19",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 245,
+                  "height": 136,
+                  "size": 55.13,
+                  "url": "/uploads/thumbnail_Screenshot_2567_04_10_at_23_06_42_a24e916c19.png"
+                },
+                "small": {
+                  "name": "small_Screenshot 2567-04-10 at 23.06.42.png",
+                  "hash": "small_Screenshot_2567_04_10_at_23_06_42_a24e916c19",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 277,
+                  "size": 207.85,
+                  "url": "/uploads/small_Screenshot_2567_04_10_at_23_06_42_a24e916c19.png"
+                },
+                "medium": {
+                  "name": "medium_Screenshot 2567-04-10 at 23.06.42.png",
+                  "hash": "medium_Screenshot_2567_04_10_at_23_06_42_a24e916c19",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 415,
+                  "size": 446.7,
+                  "url": "/uploads/medium_Screenshot_2567_04_10_at_23_06_42_a24e916c19.png"
+                },
+                "large": {
+                  "name": "large_Screenshot 2567-04-10 at 23.06.42.png",
+                  "hash": "large_Screenshot_2567_04_10_at_23_06_42_a24e916c19",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 553,
+                  "size": 768.85,
+                  "url": "/uploads/large_Screenshot_2567_04_10_at_23_06_42_a24e916c19.png"
+                }
+              },
+              "hash": "Screenshot_2567_04_10_at_23_06_42_a24e916c19",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1116.27,
+              "url": "/uploads/Screenshot_2567_04_10_at_23_06_42_a24e916c19.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2024-04-10T16:06:55.385Z",
+              "updatedAt": "2024-04-10T16:06:55.385Z"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 5
+    }
+  }
+}

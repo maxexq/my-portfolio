@@ -1,60 +1,81 @@
+import axios from "axios";
+import Image from "next/image";
 import React from "react";
 
-type Props = {};
+import stacksStatic from "./stacks.json";
 
-const mockStacks = [
-  {
-    name: "React",
-    icon: "",
-    url: "",
-  },
-  {
-    name: "Nextjs",
-    icon: "",
-    url: "",
-  },
-  {
-    name: "TypeScript",
-    icon: "",
-    url: "",
-  },
-  {
-    name: "Tailwind",
-    icon: "",
-    url: "",
-  },
-  {
-    name: "Go",
-    icon: "",
-    url: "",
-  },
-  {
-    name: "Node",
-    icon: "",
-    url: "",
-  },
-];
+interface IStacks {
+  id: number;
+  attributes: {
+    title: string;
+    description: string;
+    url: string;
+    detail?: {};
+    createdAt?: string;
+    updatedAt?: string;
+    publishedAt?: string;
+    thumbnail?: {
+      data: [
+        {
+          attributes: {
+            url: string;
+          };
+        }
+      ];
+    };
+  };
+}
 
-const Stacks = (props: Props) => {
+const fetchStacks = async () => {
+  try {
+    const response = await axios.get(
+      `${process.env.STRAPI_BASE_URL}/api/stacks?populate=*`
+    );
+    return response?.data.data;
+  } catch (error) {
+    console.error(error);
+    return stacksStatic?.data;
+  }
+};
+
+const Stacks = async () => {
+  const stacksList: IStacks[] = await fetchStacks();
+
+  console.log("static", stacksStatic);
+
   return (
     <section
       id="stacks"
-      className="flex flex-col items-center gap-4 h-auto text-center lg:items-center 
-                lg:relative lg:justify-center"
+      className="w-full flex flex-col items-center gap-6 h-auto text-center lg:items-center 
+                lg:relative lg:justify-center p-4"
     >
-      <h2 className="font-semibold text-2xl">Tech stack</h2>
-      <ul className="flex gap-4">
-        {mockStacks?.map((stack, index) => {
+      <h2 className="font-semibold text-2xl">Tech stacks</h2>
+      <ul className="flex gap-4 items-center flex-wrap w-full justify-center">
+        {stacksList?.map((stack, index) => {
+          const { attributes } = stack;
+          const imgUrl = attributes?.thumbnail?.data[0]?.attributes?.url;
+          console.log(attributes?.thumbnail?.data[0]?.attributes?.url);
           return (
-            <li key={index}>
+            <li key={index} className="hover:scale-125 transition-all">
               <a
-                href={stack?.url || "#"}
+                href={attributes?.url || "#"}
                 target="_blank"
-                className="hover:rotate-6 transition-all duration-300"
+                className="transition-all duration-300"
               >
-                {stack.icon ? null : (
+                {imgUrl ? (
+                  <div
+                    className={`rounded-full w-20 h-20 flex justify-center items-center min-w-[64px] p-2 border border-[#2d3238]`}
+                  >
+                    <Image
+                      src={`${process.env.STRAPI_BASE_URL}${imgUrl}` || ""}
+                      alt={attributes?.description}
+                      width={40}
+                      height={40}
+                    />
+                  </div>
+                ) : (
                   <span className="rounded-full flex items-center gap-1 text-[#848d97] text-xs px-2 leading-[18px] border border-[#2d3238] h-5">
-                    {stack?.name}
+                    {attributes?.title}
                   </span>
                 )}
               </a>

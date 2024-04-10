@@ -1,44 +1,39 @@
+// * External components
 import axios from "axios";
 import React from "react";
+import Link from "next/link";
 
-// const fetchHeader = async () => {
-//   try {
-//     const response = await axios.get(
-//       `${process.env.STRAPI_BASE_URL}/api/header`
-//     );
+//* static data
+import headerStatic from "./header.json";
 
-//     return response.data.data;
-//   } catch (error) {
-//     console.error(error);
-//     return [];
-//   }
-// };
+const fetchHeader = async () => {
+  try {
+    const response = await axios.get(
+      `${process.env.STRAPI_BASE_URL}/api/header`
+    );
+    return response?.data.data.attributes.detail;
+  } catch (error) {
+    console.error(error);
+    return headerStatic?.data;
+  }
+};
 
 type Props = {
   // onToggleSidebar: () => void;
 };
 
-const Header = async ({}: Props) => {
-  // const header = await fetchHeader();
+interface IMenu {
+  name: string;
+  path: string;
+}
 
-  const paths = [
-    {
-      title: "Home",
-      url: "#home",
-    },
-    {
-      title: "About",
-      url: "#about",
-    },
-    {
-      title: "Projects",
-      url: "#projects",
-    },
-    {
-      title: "Contact",
-      url: "#contact",
-    },
-  ];
+interface IHeader {
+  logo: string;
+  menus: IMenu[];
+}
+
+const Header = async ({}: Props) => {
+  const header: IHeader = await fetchHeader();
 
   return (
     <header
@@ -47,15 +42,18 @@ const Header = async ({}: Props) => {
                         from-zinc-200 py-8 backdrop-blur-2xl dark:border-neutral-800 
                         dark:bg-zinc-800/30 dark:from-inherit"
     >
-      <h3 className="nav text-xl">maxexq.dev</h3>
-      <div className="hidden sm:flex gap-5">
-        {paths?.map((path, index) => (
-          <a key={index} className="nav" id={path.url}>
-            {path.title}
-          </a>
-        ))}
-      </div>
-
+      <h3 className="nav text-xl">{header?.logo}</h3>
+      <ul className="hidden sm:flex gap-5">
+        {header?.menus?.map((path, index) => {
+          return (
+            <li key={index}>
+              <Link className="nav" href={path.path}>
+                {path.name}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
       <button className="sm:hidden">Open</button>
     </header>
   );
